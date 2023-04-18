@@ -169,7 +169,6 @@ async function users() {
             tbl += `
             <tr>
             <th scope="row">${index + 1}</th>
-            <td> ${item.postId} </td>
             <td>${item.id}</td>
             <td>${item.name}</td>
             <td>${item.username}</td>
